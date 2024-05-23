@@ -15,7 +15,7 @@ function App() {
           target='_blank'
           rel='noopener noreferrer'
         >
-          Hello Fork!
+          Hello!
         </a>
       </header>
     </div>
