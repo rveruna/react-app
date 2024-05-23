@@ -1,87 +1,36 @@
 import React from 'react';
+import Header from './components/Header.js';
 import './App.css';
 
 class App extends React.Component {
   render() {
     return (
       <div className='App'>
-        <header id='intro'>
-          <article className='fullheight'>
-            <div className='hgroup'>
-              <h1>Landon Hotel</h1>
-              <h2>West London</h2>
-              <p>
-                <a href='#welcome'>
-                  <img
-                    src='https://landonhotel.com/images/misc/arrow.png'
-                    alt='down arrow'
-                  />
-                </a>
-              </p>
-            </div>
-          </article>
-
-          <nav id='nav'>
-            <div className='navbar'>
-              <div className='brand'>
-                <a href='#welcome'>
-                  Landon <span>Hotel</span>
-                </a>
-              </div>
-              <ul>
-                <li>
-                  <a className='icon info' href='#hotelinfo'>
-                    <span>info</span>
-                  </a>
-                </li>
-                <li>
-                  <a className='icon rooms' href='#rooms'>
-                    <span>rooms</span>
-                  </a>
-                </li>
-                <li>
-                  <a className='icon dining' href='#dining'>
-                    <span>dining</span>
-                  </a>
-                </li>
-                <li>
-                  <a className='icon events' href='#events'>
-                    <span>events</span>
-                  </a>
-                </li>
-                <li>
-                  <a className='icon attractions' href='#attractions'>
-                    <span>attractions</span>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-        </header>
+        <Header />
 
         <main id='wrapper'>
           <div className='scene' id='welcome'>
             <article className='content'>
               <div className='gallery'>
                 <img
-                  src='https://landonhotel.com/images/hotel/intro_room.jpg'
+                  src='images/hotel/intro_room.jpg'
                   alt='Intro Gallery Room Sample Pictures'
                 />
                 <img
-                  src='https://landonhotel.com/images/hotel/intro_pool.jpg'
+                  src='images/hotel/intro_pool.jpg'
                   alt='Intro Gallery Pool Sample Pictures'
                 />
                 <img
-                  src='https://landonhotel.com/images/hotel/intro_dining.jpg'
+                  src='images/hotel/intro_dining.jpg'
                   alt='Intro Gallery Dining Sample Pictures'
                 />
                 <img
-                  src='https://landonhotel.com/images/hotel/intro_attractions.jpg'
+                  src='images/hotel/intro_attractions.jpg'
                   alt='Intro Gallery Attractions Sample Pictures'
                 />
                 <img
                   className='hidesm'
-                  src='https://landonhotel.com/images/hotel/intro_wedding.jpg'
+                  src='images/hotel/intro_wedding.jpg'
                   alt='Intro Gallery Dining Sample Pictures'
                 />
               </div>
@@ -200,43 +149,43 @@ class App extends React.Component {
               </p>
             </article>
           </div>
-        </main>
 
-        <footer className='scene'>
-          <article className='content'>
-            <div id='socialmedia'>
-              <ul className='group'>
-                <li>
-                  <a href='https://twitter.com'>
-                    <img
-                      className='icon'
-                      src='https://landonhotel.com/images/socialmedia/twitter.png'
-                      alt='icon for twitter'
-                    />
-                  </a>
-                </li>
-                <li>
-                  <a href='http://www.facebook.com'>
-                    <img
-                      className='icon'
-                      src='https://landonhotel.com/images/socialmedia/facebook.png'
-                      alt='icon for facebook'
-                    />
-                  </a>
-                </li>
-                <li>
-                  <a href='http://www.youtube.com'>
-                    <img
-                      className='icon'
-                      src='https://landonhotel.com/images/socialmedia/youtube.png'
-                      alt='icon for youtube'
-                    />
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </article>
-        </footer>
+          <footer className='scene'>
+            <article className='content'>
+              <div id='socialmedia'>
+                <ul className='group'>
+                  <li>
+                    <a href='https://twitter.com'>
+                      <img
+                        className='icon'
+                        src='images/socialmedia/twitter.png'
+                        alt='icon for twitter'
+                      />
+                    </a>
+                  </li>
+                  <li>
+                    <a href='http://www.facebook.com'>
+                      <img
+                        className='icon'
+                        src='images/socialmedia/facebook.png'
+                        alt='icon for facebook'
+                      />
+                    </a>
+                  </li>
+                  <li>
+                    <a href='http://www.youtube.com'>
+                      <img
+                        className='icon'
+                        src='images/socialmedia/youtube.png'
+                        alt='icon for youtube'
+                      />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </article>
+          </footer>
+        </main>
       </div>
     );
   }
