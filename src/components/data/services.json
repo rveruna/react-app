@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Indoor pool"
+  },
+  {
+    "id": 2,
+    "name": "24-hour fitness center"
+  },
+  {
+    "id": 3,
+    "name": "Massage therapy"
+  },
+  {
+    "id": 4,
+    "name": "Full service spa"
+  },
+  {
+    "id": 5,
+    "name": "In-room jacuzzi tubs"
+  },
+  {
+    "id": 6,
+    "name": "Rooftop café  &amp; smoothie bar"
+  },
+  {
+    "id": 7,
+    "name": "Coffee bar  &amp; pastry shop"
+  },
+  {
+    "id": 8,
+    "name": "Traditional continental breakfast"
+  },
+  {
+    "id": 9,
+    "name": "24-hour concierge service"
+  },
+  {
+    "id": 10,
+    "name": "Business center"
+  },
+  {
+    "id": 11,
+    "name": "Complimentary wireless service"
+  },
+  {
+    "id": 12,
+    "name": "Laundry &amp; dry cleaning service"
+  },
+  {
+    "id": 13,
+    "name": "Daily paper"
+  },
+  {
+    "id": 14,
+    "name": "Certified \"green\" hotel"
+  },
+  {
+    "id": 15,
+    "name": "Pet-friendly rooms  &amp; common areas"
+  }
+]
