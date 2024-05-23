@@ -1,25 +1,30 @@
 [
   {
+    "id": 1,
     "class": "info",
     "href": "#hotelinfo",
     "text": "info"
   },
   {
+    "id": 2,
     "class": "rooms",
     "href": "#rooms",
     "text": "rooms"
-  },  
+  },
   {
+    "id": 3,
     "class": "dining",
     "href": "#dining",
     "text": "dining"
   },
   {
+    "id": 4,
     "class": "events",
     "href": "#events",
     "text": "events"
   },
   {
+    "id": 5,
     "class": "attractions",
     "href": "#attractions",
     "text": "attractions"
